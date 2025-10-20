@@ -1,0 +1,59 @@
+.landimg{
+    background:url("https://www.cpasitesolutions.com/cpa-websites/wp-content/uploads/2024/06/local-seo-for-bookeepers-1.png");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    width: 100%;
+    height: 450px;
+}
+.blur-box {
+  backdrop-filter: blur(0.5px);
+  background-color: rgba(253, 249, 249, 0.3);
+  padding: 20px; 
+  border-radius: 10px;
+  width:500px;
+  height: 200px;
+
+}
+.clr{
+    background-color: #350463;
+    color: white;
+    border: 1px solid rgb(38, 41, 81);
+    border-radius: 3px;
+    padding:8px 15px;
+    font-size: 14px;
+}
+.st{
+    background-image: url(https://www.icu.ac.jp/en/assets/img/academics/ph_gs_ma_01.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1200px;
+}
+.stc{
+    background-color: white;
+}
+.height{
+    height: 70vh;
+}
+.lines{
+    line-height: 1.5;
+}
+.line{
+    line-height: 2.5;
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.content-wrap {
+  flex: 1; /* This makes main content expand and push footer to bottom */
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
